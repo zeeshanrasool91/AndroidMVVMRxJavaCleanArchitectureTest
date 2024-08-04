@@ -16,6 +16,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+    //Adding Changes for final Commit
     private val viewModel: BookViewModel by viewModels()
     private lateinit var binding: ActivityMainBinding
 
